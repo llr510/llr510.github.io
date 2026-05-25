@@ -567,7 +567,8 @@ ul.icons {
     -webkit-transition: opacity 0.5s ease-in-out;
     -ms-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
-    bottom: 4em;
+    /*bottom: 4em;*/
+    bottom: 0px;
     color: rgba(255, 255, 255, 0.5);
     left: 4em;
     opacity: 0.5;
@@ -681,4 +682,12 @@ ul.icons {
 .topnav a.active {
     background-color: var(--dustygrape);
     color: white;
+}
+
+.bibliography {
+    /*background-color: var(--transgrape);*/
+    overflow: scroll;
+    top: 0;
+    left: 0;
+    /*position: fixed;*/
 }
